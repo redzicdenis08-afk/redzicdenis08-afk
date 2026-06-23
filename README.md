@@ -25,4 +25,5 @@ Python   TypeScript   Next.js   Node   VAPI   n8n   Playwright   AWS   Cloudflar
 ### Reach me
 
 Portfolio · https://redzicdenis08-afk.github.io/portfolio/
+LinkedIn · https://www.linkedin.com/in/denis-redzic-118183419/
 Email · hello@denisai.online
