@@ -1,21 +1,28 @@
-### Denis Redzic
+# Denis Redzic
 
-Founder and AI systems builder. I build voice agents, automation, and the infrastructure that keeps them live.
+**Founder and AI systems builder.** I build AI that picks up the phone, does the work, and keeps running while I sleep.
 
-I care about systems that ship to production and do real work, not demos. I design it, code it, deploy it, and own the result.
+I'm self-taught and I work solo, end to end: design, code, infrastructure, and the unglamorous part where you keep it alive in production. Most of what I build is talking to real customers right now, not sitting in a demo.
 
-**What I build**
+### What I'm building
 
-- Voice AI that answers calls, qualifies leads, and books appointments
-- Full-stack web apps and SaaS products
-- Automation and scraping pipelines that run unattended
-- The cloud infrastructure behind all of it
+**Core Dispatch.** An AI receptionist and cold caller for local service businesses. It answers missed calls, qualifies leads, books jobs, and hands hot prospects to a closing agent. Full pipeline, from lead sourcing to payments.
 
-**Tools I reach for**
+**Adoracle.** Ad intelligence software. It pulls competitor ads from public libraries and breaks down the hooks and angles with AI, so marketers can see what works before they spend.
 
-`Python` · `TypeScript` · `Next.js` · `Node` · `VAPI` · `n8n` · `Playwright` · `AWS` · `Cloudflare`
+**Database Reactivation.** An AI voice system that calls a business's dead leads and turns them back into booked work. Fully automated, runs on a schedule.
 
-**Find me**
+**FormReach.** An outreach engine that fills contact forms across thousands of sites, around the clock, with stealth browsing and automatic captcha solving.
 
-- Portfolio: https://redzicdenis08-afk.github.io/portfolio/
-- Email: hello@denisai.online
+### How I work
+
+I build things that ship to production, not slides. The bar I care about is simple: does it still work when nobody is watching.
+
+```text
+Python   TypeScript   Next.js   Node   VAPI   n8n   Playwright   AWS   Cloudflare   SQLite
+```
+
+### Reach me
+
+Portfolio · https://redzicdenis08-afk.github.io/portfolio/
+Email · hello@denisai.online
