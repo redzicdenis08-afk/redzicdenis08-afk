@@ -1,6 +1,6 @@
 # Denis Redzic
 
-**Founder and AI systems builder.** I build AI that picks up the phone, does the work, and keeps running while I sleep.
+**Founder and AI engineer.** I build AI that picks up the phone, does the work, and keeps running while I sleep.
 
 I'm self-taught and I work solo, end to end: design, code, infrastructure, and the unglamorous part where you keep it alive in production. Most of what I build is talking to real customers right now, not sitting in a demo.
 
@@ -19,7 +19,11 @@ I'm self-taught and I work solo, end to end: design, code, infrastructure, and t
 I build things that ship to production, not slides. The bar I care about is simple: does it still work when nobody is watching.
 
 ```text
-Python   TypeScript   Next.js   Node   VAPI   n8n   Playwright   AWS   Cloudflare   SQLite
+AI & Voice     LLMs (GPT, Claude) · Prompt engineering · VAPI · ElevenLabs · Deepgram
+Languages      Python · TypeScript · JavaScript · SQL · Bash
+Web            Next.js · React · Node · REST APIs · Webhooks
+Automation     n8n · Playwright · Web scraping · Cron & systemd
+Cloud & Data   AWS · Cloudflare · Linux · Docker · Google Sheets · SQLite · Supabase
 ```
 
 ### Reach me
