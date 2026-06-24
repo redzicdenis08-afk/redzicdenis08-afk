@@ -28,6 +28,6 @@ Cloud & Data   AWS · Cloudflare · Linux · Docker · Google Sheets · SQLite �
 
 ### Reach me
 
-Portfolio · https://redzicdenis08-afk.github.io/portfolio/
+Portfolio · https://denis.denisai.online
 LinkedIn · https://www.linkedin.com/in/denis-redzic-118183419/
 Email · hello@denisai.online
