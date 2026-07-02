@@ -14,6 +14,22 @@
 
 I am self-taught and I work solo, end to end. I handle the design, code, cloud infrastructure, and the unglamorous part where you keep it alive and functioning in production. Most of what I build talks to real customers in production, not sitting in a local demo.
 
+## Why follow
+
+I turn messy production AI problems into small public reference engines you can inspect. The open repos show reusable parts: parsers, schedulers, scoring, routing, audit trails, dry-run gates, and fictional examples.
+
+Start here:
+
+| Need | Repo |
+|---|---|
+| Score AI voice transcripts | [callscope](https://github.com/redzicdenis08-afk/callscope) |
+| Audit broken voice agents with receipts | [dialproof](https://github.com/redzicdenis08-afk/dialproof) |
+| Build missed-call AI receptionist workflows | [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch) |
+| Generate local SEO lead-gen pages | [local-leadgen](https://github.com/redzicdenis08-afk/local-leadgen) |
+| Analyze competitor ad creative | [adoracle](https://github.com/redzicdenis08-afk/adoracle) |
+
+Public GitHub growth plan: [docs/GITHUB_GROWTH_PLAYBOOK.md](docs/GITHUB_GROWTH_PLAYBOOK.md).
+
 ---
 
 ## Flagship Open Source Tools
