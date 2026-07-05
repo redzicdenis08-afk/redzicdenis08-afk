@@ -1,6 +1,6 @@
 # Denis Redzic
 
-**Founder and AI Systems Engineer.** I build voice-AI agents, automated workflows, and production systems that run reliably while businesses sleep.
+**Founder and AI Systems Engineer.** Building small AI tools, weird automations, and practical systems that turn messy real-world workflows into clean production engines.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -12,7 +12,7 @@
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-I am self-taught and I work solo, end to end. I handle the design, code, cloud infrastructure, and the unglamorous part where you keep it alive and functioning in production. Most of what I build talks to real customers in production, not sitting in a local demo.
+Self-taught, shipping solo, end to end. I work across product, code, cloud infrastructure, QA, and the boring survival layer that keeps systems alive after the demo glow wears off. Most of what I build talks to real customers in production, not sitting in a local demo.
 
 ## Why follow
 
@@ -32,22 +32,26 @@ Public GitHub growth plan: [docs/GITHUB_GROWTH_PLAYBOOK.md](docs/GITHUB_GROWTH_P
 
 ---
 
-## Flagship Open Source Tools
+## Flagship project
 
-### 🔍 [callscope](https://github.com/redzicdenis08-afk/callscope)
-**Outcome analytics and quality scoring for AI voice-agent call transcripts.**
-*   A clean CLI and Python API to parse raw VAPI, Retell, Twilio, or plain text transcripts.
-*   Categorizes calls into `human_reached`, `voicemail`, `ivr`, or `no_answer` instantly.
-*   Detects high-signal customer events (objections, do-not-call requests, pricing discussion, bookings).
-*   Applies offline, deterministic scoring to map conversation quality.
-*   *Zero runtime dependencies. Pure Python standard library.*
+### [callscope](https://github.com/redzicdenis08-afk/callscope)
+Offline QA benchmark and batch analytics for AI voice-agent call transcripts.
 
-### 📞 [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch)
-**An open-source framework for AI voice-dispatch workflows.**
-*   A clean qualify-and-schedule state machine for inbound and outbound operations.
-*   Enforces calling windows, attempt limits, and custom backoff periods.
-*   Includes signatures verification and defensive parsing for webhook ingestion.
-*   *Zero runtime dependencies. Swap-ready provider protocols.*
+- Classifies human, voicemail, IVR, and no-answer calls
+- Detects price, callback, booking, objection, and opt-out signals
+- Exports CSV and JSONL for batch QA reports
+- Includes a 20-case fictional benchmark
+- Zero runtime dependencies
+
+Repo: https://github.com/redzicdenis08-afk/callscope
+
+### [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch)
+Open-source framework for AI voice-dispatch workflows.
+
+- Qualify-and-schedule state machine for inbound and outbound operations
+- Calling windows, attempt limits, and custom backoff periods
+- Signature verification and defensive webhook parsing
+- Swap-ready provider protocols
 
 ---
 
