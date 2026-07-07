@@ -45,6 +45,7 @@ The angle: useful reference engines for builders who want to inspect the impleme
 5. Lead each post with the pain, then show the output, then link the repo.
 6. Answer technical comments with implementation detail.
 7. Add one small example or improvement every 2 to 3 days for two weeks.
+8. Maintain a bi-weekly repo audit and security policy compliance check.
 
 ## Weekly loop
 
