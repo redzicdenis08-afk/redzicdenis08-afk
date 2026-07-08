@@ -1,4 +1,4 @@
-# Denis Redzic
+﻿# Denis Redzic
 
 **Founder and AI Systems Engineer.** Building small AI tools, weird automations, and practical systems that turn messy real-world workflows into clean production engines.
 
@@ -76,11 +76,11 @@ Every project ships with tests and CI. The bar I care about is simple: does it s
 ## Tech Stack
 
 ```text
-AI & Voice     LLMs (GPT, Claude) · Prompt engineering · VAPI · ElevenLabs · Deepgram
-Languages      Python · TypeScript · JavaScript · SQL · Bash
-Web            Next.js · React · Node · REST APIs · Webhooks
-Automation     n8n · Playwright · Web scraping · Cron & systemd
-Cloud & Data   AWS · Cloudflare · Linux · Docker · Google Sheets · SQLite · Supabase
+AI & Voice     LLMs (GPT, Claude) Â· Prompt engineering Â· VAPI Â· ElevenLabs Â· Deepgram
+Languages      Python Â· TypeScript Â· JavaScript Â· SQL Â· Bash
+Web            Next.js Â· React Â· Node Â· REST APIs Â· Webhooks
+Automation     n8n Â· Playwright Â· Web scraping Â· Cron & systemd
+Cloud & Data   AWS Â· Cloudflare Â· Linux Â· Docker Â· Google Sheets Â· SQLite Â· Supabase
 ```
 
 ---
@@ -94,7 +94,10 @@ Cloud & Data   AWS · Cloudflare · Linux · Docker · Google Sheets · SQLite �
 
 ## Contact
 
-*   **Portfolio** · https://denis.denisai.online
-*   **LinkedIn** · https://www.linkedin.com/in/denis-redzic-118183419/
-*   **Email** · hello@denisai.online
-*   **Last Updated** · July 2026
+*   **Portfolio** Â· https://denis.denisai.online
+*   **LinkedIn** Â· https://www.linkedin.com/in/denis-redzic-118183419/
+*   **Email** Â· hello@denisai.online
+*   **Last Updated** Â· July 2026
+
+*Last updated: 2026-07-08*
+
