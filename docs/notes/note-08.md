@@ -6,3 +6,5 @@ Small profile repo cleanup note.
 - Keep examples easy to scan.
 - Keep launch notes useful.
 
+
+- Verified: 2026-07-10
