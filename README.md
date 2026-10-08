@@ -1,103 +1,44 @@
-﻿# Denis Redzic
+# Denis Redzic
 
-**Founder and AI Systems Engineer.** Building small AI tools, weird automations, and practical systems that turn messy real-world workflows into clean production engines.
+Self-taught builder from Bosnia. Voice AI, automation, and the engineering underneath it.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-Self-taught, shipping solo, end to end. I work across product, code, cloud infrastructure, QA, and the boring survival layer that keeps systems alive after the demo glow wears off. Most of what I build talks to real customers in production, not sitting in a local demo.
+## About
 
-## Why follow
+In 2026 I ran a small AI receptionist and dispatch operation for local service businesses, built on Vapi and n8n. That work taught me where voice agents actually break: callbacks outside legal hours, leads re-dialed forever, do-not-call requests ignored, broken bookings.
 
-I turn messy production AI problems into small public reference engines you can inspect. The open repos show reusable parts: parsers, schedulers, scoring, routing, audit trails, dry-run gates, and fictional examples.
+The repos here are the reusable parts of that work, rebuilt as small, tested, dependency-light reference implementations. They were built with heavy AI-assisted coding and are prototypes and learning projects, not production deployments. I say that upfront because I would rather be honest than impressive.
 
-Start here:
+Right now I am going deep on fundamentals: Python, backend and APIs, testing, and AI agent reliability. Building in public, one project at a time.
 
-| Need | Repo |
-|---|---|
-| Score AI voice transcripts | [callscope](https://github.com/redzicdenis08-afk/callscope) |
-| Audit broken voice agents with receipts | [dialproof](https://github.com/redzicdenis08-afk/dialproof) |
-| Build missed-call AI receptionist workflows | [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch) |
-| Generate local SEO lead-gen pages | [local-leadgen](https://github.com/redzicdenis08-afk/local-leadgen) |
-| Analyze competitor ad creative | [adoracle](https://github.com/redzicdenis08-afk/adoracle) |
+## Featured
 
-Public GitHub growth plan: [docs/GITHUB_GROWTH_PLAYBOOK.md](docs/GITHUB_GROWTH_PLAYBOOK.md).
-
----
-
-## Flagship project
-
-### [callscope](https://github.com/redzicdenis08-afk/callscope)
-Offline QA benchmark and batch analytics for AI voice-agent call transcripts.
-
-- Classifies human, voicemail, IVR, and no-answer calls
-- Detects price, callback, booking, objection, and opt-out signals
-- Exports CSV and JSONL for batch QA reports
-- Includes a 20-case fictional benchmark
-- Zero runtime dependencies
-
-Repo: https://github.com/redzicdenis08-afk/callscope
-
-### [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch)
-Open-source framework for AI voice-dispatch workflows.
-
-- Qualify-and-schedule state machine for inbound and outbound operations
-- Calling windows, attempt limits, and custom backoff periods
-- Signature verification and defensive webhook parsing
-- Swap-ready provider protocols
-
----
-
-## Featured Work
-
-Each repository below is a clean, dependency-light **open reference implementation** of the engine behind one of my production systems. The live deployments stay private; the open part is the engine you can inspect, run, and test.
-
-| Project | What it is | Stack |
+| Repo | What it does | Stack |
 |---|---|---|
-| [**callscope**](https://github.com/redzicdenis08-afk/callscope) | Transcript outcome and quality analytics: CLI/API for VAPI/Retell/Twilio, offline scoring and signal detection. | Python |
-| [**core-dispatch**](https://github.com/redzicdenis08-afk/core-dispatch) | AI voice-dispatch framework: missed-call intake, qualifying callbacks, booking, follow-up, on swappable adapters. | Python |
-| [**adoracle**](https://github.com/redzicdenis08-afk/adoracle) | Ad-intelligence engine: normalize competitor ads, detect hooks and angles, score creative. | TypeScript |
-| [**database-reactivation**](https://github.com/redzicdenis08-afk/database-reactivation) | Rank a business's dead leads by win-back potential and schedule compliant outreach. | Python |
-| [**wc-leadgen**](https://github.com/redzicdenis08-afk/wc-leadgen) | Lead scoring plus a fail-closed CAN-SPAM and eligibility compliance engine. | Python |
-| [**local-leadgen**](https://github.com/redzicdenis08-afk/local-leadgen) | Programmatic local-SEO page generator with schema.org markup and sitemaps. | TypeScript |
-| [**dialproof**](https://github.com/redzicdenis08-afk/dialproof) | Voice-agent QA: audit calls, receipt-backed reports, dry-run-by-default action gate. | Python |
+| [callscope](https://github.com/redzicdenis08-afk/callscope) | Offline outcome and quality scoring for AI voice-agent call transcripts, with a fictional benchmark | Python |
+| [core-dispatch](https://github.com/redzicdenis08-afk/core-dispatch) | Qualify-and-schedule state machine for missed-call and callback workflows, with swappable provider adapters | Python |
+| [dialproof](https://github.com/redzicdenis08-afk/dialproof) | Voice-agent QA: audit calls, receipt-backed reports, dry-run-by-default action gate | Python |
 
-Every project ships with tests and CI. The bar I care about is simple: does it still work when nobody is watching.
+Every featured repo runs offline with in-memory adapters and ships with tests.
 
----
-
-## Tech Stack
+## Stack
 
 ```text
-AI & Voice     LLMs (GPT, Claude) Â· Prompt engineering Â· VAPI Â· ElevenLabs Â· Deepgram
-Languages      Python Â· TypeScript Â· JavaScript Â· SQL Â· Bash
-Web            Next.js Â· React Â· Node Â· REST APIs Â· Webhooks
-Automation     n8n Â· Playwright Â· Web scraping Â· Cron & systemd
-Cloud & Data   AWS Â· Cloudflare Â· Linux Â· Docker Â· Google Sheets Â· SQLite Â· Supabase
+AI and voice   LLMs (Claude, GPT), Vapi, ElevenLabs, Deepgram
+Languages      Python, TypeScript, JavaScript, SQL, Bash
+Automation     n8n, webhooks, REST APIs, Playwright
+Infra          Linux, Docker, Cloudflare, SQLite
 ```
-
----
-
-## Activity
-
-![Denis's GitHub stats](https://github-readme-stats.vercel.app/api?username=redzicdenis08-afk&show_icons=true&hide=stars&hide_title=true&theme=graywhite&hide_border=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=redzicdenis08-afk&layout=compact&theme=graywhite&hide_border=true&langs_count=6)
-
----
 
 ## Contact
 
-*   **Portfolio** Â· https://denis.denisai.online
-*   **LinkedIn** Â· https://www.linkedin.com/in/denis-redzic-118183419/
-*   **Email** Â· hello@denisai.online
-*   **Last Updated** Â· July 2026
+- Portfolio: https://denis.denisai.online
+- LinkedIn: https://www.linkedin.com/in/denis-redzic-118183419/
+- Email: hello@denisai.online
 
-*Last updated: 2026-07-08*
-
+*Last updated: October 2026*
